@@ -1,4 +1,4 @@
-// the logic same as reversearray of swapping the change here is that instead of swapping 1 nd last element we will swap i'th element  and i+=2 element that is element next to it
+// the logic same as reversearray of swapping the change here is that instead of swapping 1 nd last element we will swap i'th element  and i+1 and incrementing it by i+= 2element that is element next to it
 
 #include <iostream>
 using namespace std;
