@@ -29,7 +29,6 @@ int min(int arr[], int n)
     }
     return min;
 }
-
 int main()
 {
     int size;
