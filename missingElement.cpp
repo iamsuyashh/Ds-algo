@@ -1,3 +1,6 @@
+//  Missing Number
+// Problem statement
+// Given an array ‘a’ of size ‘n’-1 with elements of range 1 to ‘n’. The array does not contain any duplicates. Your task is to find the missing number.
 #include <bits/stdc++.h>
 using namespace std;
 
