@@ -5,11 +5,11 @@
 #include <iostream>
 using namespace std;
 void  FlippedsimplePyramid(){
-     int n;
+    int n;
     cout << "\n Enter the size of the pyramid : ";
     cin >> n;
-    int i = 0;
-    while (i <= n)
+    int i = n;
+    while (i > 0)
     {
         int j = 0;
         while (j < i)
