@@ -1,21 +1,30 @@
 // list of patterns using below:
 // 1.Simple Pyramid Pattern
 // 2.Flipped Simple Pyramid Pattern
+// 3.Inverted Pyramid
+
 
 #include <iostream>
 using namespace std;
 void  FlippedsimplePyramid(){
     int n;
+    int k;
+    int j;
     cout << "\n Enter the size of the pyramid : ";
     cin >> n;
-    int i = n;
-    while (i > 0)
+    int i = 1;
+    while (i <= n)
     {
-        int j = 0;
-        while (j < i)
+        j = i;
+        while (j < n)
         {
-            cout << "*";
+            cout<< " ";
             j++;
+        }
+        k=1;
+        while(k<=i){
+            cout<<"*";
+            k++;
         }
         cout << " " << endl;
         i++;
@@ -40,7 +49,12 @@ void simplePyramid()
         cout << " " << endl;
         i++;
     }
-};
+}
+
+void Invertedpyramid(){
+    int rows;
+    cout<<"Enter the Size of the pyramid";
+}
 
 int main()
 {
