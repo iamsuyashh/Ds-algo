@@ -1,8 +1,8 @@
 // list of patterns using below:
-// 1.Simple Pyramid Pattern
-// 2.Flipped Simple Pyramid Pattern
+// 1.Simple Pyramid Pattern >
+// 2.Flipped Simple Pyramid Pattern >
 // 3.Inverted Pyramid
-// 6.Inverted Pyramid
+// 6.Inverted Triangle >
 
 
 #include <iostream>
