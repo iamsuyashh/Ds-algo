@@ -36,16 +36,16 @@ void  FlippedsimplePyramid(){
 void simplePyramid()
 {
     int n;
-    cout << "\n Enter the size of the pyramid : ";
+    cout << "\n Enter the size of the pyramid : \n";
     cin >> n;
-    int i = 0;
-    while (i <= n)
+    int i = n;
+    while (i <= 0)
     {
-        int j = 0;
+        int j = 1;
         while (j < i)
         {
             cout << "*";
-            j++;
+            j--;
         }
         cout << " " << endl;
         i++;
