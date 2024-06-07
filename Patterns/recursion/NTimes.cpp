@@ -22,6 +22,7 @@ int recur(int i , int n){
     recur(i+1,n);
 }
 
+
 int main(){
     int i = 1;
     int n = 10;
