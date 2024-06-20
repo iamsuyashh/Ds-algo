@@ -1,0 +1,19 @@
+{"arrayprint": {
+	"prefix": "boilerplate code",
+	"body": [
+		"void printArray(int arr[], int n)",
+"{",
+    "for (int i = 0; i < n; i++)",
+    "{",
+        "cout << arr[i] << ",
+    "}",
+    "cout << endl;",
+	"\t$1",	
+"}",
+	
+		
+		"$2"
+	],
+	"description": "This is a arrayinput"
+}
+}
