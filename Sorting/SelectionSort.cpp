@@ -33,7 +33,7 @@ int main(){
     {
         cin>>arr[i];
     }
-   Sort(arr,n);
+//    Sort(arr,n);
     for(int i = 0;i<n;i++){
             cout<<""<<arr[i]<<" ";
     }
