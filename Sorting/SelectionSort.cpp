@@ -1,16 +1,27 @@
 #include<iostream>
 using namespace std;
-
-
-void Sort(int arr[],int n){
-        for(int i  = 0 ; i<n-1;i++){
-            for(int j = i+1 ; j<n;j++){
-                int minIndex = i;
-                if(arr[j]<arr[minIndex]){
-                    swap(arr[j],arr[minIndex]);
-                }
+/**
+ * @brief Sorts an array of integers using the selection sort algorithm
+ * 
+ * @param arr The array of integers to be sorted
+ * @param n The size of the array
+ */
+void Sort(int arr[], int n) {
+    // Iterate through the array from the first element to the second last element
+    for (int i = 0; i < n - 1; i++) {
+        // Initialize the minimum index to the current element
+        int minIndex = i;
+        // Iterate through the array from the current element + 1 to the last element
+        for (int j = i + 1; j < n; j++) {
+            // If the current element is greater than the element at the minimum index
+            if (arr[j] < arr[minIndex]) {
+                // Set the minimum index to the current element
+                minIndex = j;
             }
         }
+        // Swap the element at the minimum index with the element at the current index
+        swap(arr[minIndex], arr[i]);
+    }
 }
 
 int main(){
