@@ -11,14 +11,22 @@ using namespace std;
 void bubsort(int arr[], int n) {
     // Outer loop for traversing the array
     for (int i = 0; i < n - 1; i++) {
+        int didSwap = 0;
         // Inner loop for comparing adjacent elements
         for (int j = 0; j < n - i - 1; j++) {
             // Swapping if the current element is greater than the next element
             if (arr[j] > arr[j + 1]) {
                 swap(arr[j], arr[j + 1]);
             }
+            didSwap=1;
+        }
+
+        if(didSwap == 0){
+            cout<<"broken";
+            break;
         }
     }
+
 }
 int main(){
     int n;
