@@ -6,29 +6,26 @@
 // Output: [2, 3, 4, 5, 1]
 
 
-#include<iostream>
 
+
+#include<iostream>
 using namespace std;
 
 int rotate(int arr[],int n){
     int temp = arr[0];
-    for(int i = 1 ; i<n ;  i++){
+    for(int i = 1 ; i<n ;i++ ){
         arr[i-1] = arr[i];
     }
     arr[n-1] = temp;
-     for (int i = 0; i < n; i++)
-    {
-        cout << "" << arr[i] << " ";
+    for(int i = 0;i<n;i++){
+    cout<<arr[i]<<" ";
     }
 }
 
 int main(){
-    int arr[5] = {1,2,3,4,5};
     int n = 5;
-    cout<<"Array after left rotation : ";
-    rotate(arr, n);
-   
-
-
+    int arr[5] = {1,2,3,4,5};
+    cout<<"The rotated array is :";
+    rotate(arr,n);
     return 0;
 }
